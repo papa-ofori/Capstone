@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Wireless Channel Configuration</title>
+  <link href="Css/config.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">HomeNet</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home 
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Demo header-->
+<section class="py-5 header">
+    <div class="container py-4">
+        <header class="text-center mb-5 pb-5 text-black" style="background-color: linear-gradient(to left, #bdb9b9, #f5e8e8)">
+            <h1 class="display-4">Configuring Wireless Channel</h1>
+            <p class="font-italic mb-1">The interfaces on a router vary depending on the manufacturer. However, the configurations are typically the same for all routers.
+            </p>
+            <p class="font-italic">All user configuration is done primarily through the web interface of the home router.
+                <!-- <a class="text-white" href="https://bootstrapious.com/">
+                    <u>Bootstrapious</u>
+                </a> -->
+            </p>
+        </header>
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Tabs nav -->
+                <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                        <i class="fa fa-user-circle-o mr-2"></i>
+                        <span class="font-weight-bold small text-uppercase">Overview</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                        <i class="fa fa-calendar-minus-o mr-2"></i>
+                        <span class="font-weight-bold small text-uppercase">Procedure</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                        <i class="fa fa-star mr-2"></i>
+                        <span class="font-weight-bold small text-uppercase">Recommendations</span></a>
+
+                    <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                        <i class="fa fa-check mr-2"></i>
+                        <span class="font-weight-bold small text-uppercase">Feedback</span></a>
+                    </div>
+            </div>
+
+
+            <div class="col-md-9">
+                <!-- Tabs content -->
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <h4 class="font-italic mb-4">Wireless Channel Overview</h4>
+
+                            <p class="font-italic text-muted mb-2">
+                                Wireless routers are devices that allow you to connect to the Internet wirelessly. They use radio waves to transmit data between your devices and the router. 
+                                When setting up a wireless router, one of the important settings to configure is the wireless channel.
+                                A wireless channel is a specific frequency band that wireless devices use to communicate with each other. Your wireless router broadcasts its signal on a particular channel. 
+                                In most countries, there are 13 channels available for wireless routers to use.
+
+                                <h6>Why is Wireless Channel Selection Important?</h6>
+
+                                <p>When multiple wireless routers are broadcasting their signals in close proximity, they can interfere with each other. This interference can cause slower speeds and dropped connections. By selecting the right wireless channel,
+                                 you can minimize interference and improve your wireless network's performance. </p>
+                            </p>
+                    </div>
+                    
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <h4 class="font-italic mb-4">To change your wireless channel, follow these steps:</h4>
+                        <p class="font-italic text-muted mb-2">
+                            <ul>
+                                <li>Log in to the web interface of the browser</li>
+                                <li>Navigate to the wireless settings on the left pane. This may be labeled as "Wireless", "Wireless Settings", "Wireless Network", or something similar.</li>
+                                <li>Look for the option to change the wireless channel. This may be under "Wireless Channel", "Channel", "Channel Selection", or something similar. Select the new channel that you want to use and click "Save" or "Apply" to save the changes.
+                                <li>Reboot the router: Once you've changed the channel, it's a good idea to reboot your router to apply the new settings. You can do this by unplugging the router from the power source for 10-15 seconds and then plugging it back in.</li>
+
+                            </ul>
+                            <p>You have now successfully changed your wireless channel</p>
+                        </div>
+                    
+                    <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <h6 class="font-italic mb-4">How to Choose the Right Wireless Channel</h6>
+                             <p class="font-italic text-muted mb-2">
+                            
+
+                                <ul>
+                                    
+                                <li>The best wireless channel for your home network will depend on a few factors, including the number of wireless devices you have, the types of wireless devices, and the location of your wireless router. </li>
+                                <li>Check Your Router's Default Channel: Most routers will automatically select a channel when you set them up. You can check your router's default channel in the router's settings.</li>
+                                <li>Use a Wireless Channel Scanner: There are several free tools available that can help you scan your wireless environment and identify which channels are being used. Some popular tools include WifiInfoView, InSSIDer, and Acrylic Wi-Fi Home.</li>
+                                <li>Select a Channel with Less Interference: Once you've identified which channels are being used in your environment, choose a channel with the least amount of interference. Channels 1, 6, and 11 are the most commonly used channels and typically have the least amount of interference.</li>
+                                <li><a class="text" href="https://www.youtube.com/watch?v=5Db0lbklhMw">
+                                    <u style="color: #c60063;">Video Recommendation</u></a></li>
+                                </ul>                          
+                            </div>
+                            <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                <h4 class="font-italic mb-4">Feedback</h4>
+                                <p class="font-italic text-muted mb-2">
+                                    <div class="form-container">
+                                        <div class="belt">
+                                          <div class="form">
+                                            <div class="form-header">
+                                              <h2>How was your configuration</h2>
+                                            </div>
+                                            <textarea name="" id="" cols="50" rows="10" placeholder="Type something here..."></textarea>
+                                            <button>Send</button>
+                                          </div>
+                                          <div class="progress-wrapper">
+                                            <div class="progress-div">
+                                              <h3>Your message is sending...</h3>
+                                              <div class="progress-outer">
+                                                <div class="progress-inner"></div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="success-wrapper">
+                                            <div class="success">
+                                              <i class="ion-android-done"></i>
+                                              <h2>Your Message Has Been Sent!</h2>
+                                              <button>Back</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          </body>
+          <section class="container-fluid text-center py-4 mt-4" id="contact">
+            <h2 class="display-4 pb-4 my-4">Get in touch with us today!</h2>
+            <p class="lead pb-3">Send us a message and we will get back to 
+            you as soon as possible.</p>
+            <a href="#" class="btn btn-primary btn-lg mb-4" role="button">Contact us</a>
+         </section>
+          <footer class="py-3 bg-light">
+            <div class="container">
+               <p class="text-center">Copyright &copy; HomeNet 2023</p>
+            </div>
+         </footer>
+        
+        </html>
+        
+        
+        
